@@ -3,7 +3,7 @@ import axios from 'axios';
 import jwtDecode from 'jwt-decode';
 
 // Create auth context
-const AuthContext = createContext();
+const AuthContext = createContext(); 
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
