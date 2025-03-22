@@ -22,6 +22,7 @@ import SalesPage from './components/sales/SalesPage';
 import CustomersPage from './pages/CustomersPage';
 import ReportPage from './pages/ReportsPage';
 
+
 // Create a theme
 const theme = createTheme({
   palette: {
